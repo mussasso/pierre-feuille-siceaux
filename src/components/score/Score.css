@@ -1,0 +1,47 @@
+header{
+    border: 3px solid #465677;
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.score-txt{
+    color: white;
+    text-align: left;
+    padding: 0 5px;
+    line-height: .2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.score-number{
+    background-color: #f9f9f8;
+    height: 80%;
+    align-self: center;
+    margin: 0 10px;
+    border-radius: 10px;
+    width: 100px;
+
+}
+#nbr{
+    font-size: 30px;
+    line-height: 0rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    header{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023) {
+    header{
+        width: 80%;
+    }
+}

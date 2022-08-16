@@ -1,0 +1,35 @@
+.bg-triangle{
+    background-image: url(/src/images/bg-triangle.svg);
+    width: 320px;
+    height: 300px;
+    background-size: cover;
+    margin: 200px auto;
+}
+
+.pierre{
+    background-image: url(/src/images/icon-rock.svg);
+    background-size: contain;
+    background-color: white;
+    border-radius: 50%;
+    border: 15px solid #4f6df1;
+    width: 100px;
+    height: 100px;
+}
+.papier{
+    background-image: url(/src/images/icon-paper.svg);
+    background-size: contain;
+    background-color: white;
+    border-radius: 50%;
+    border: 15px solid #4f6df1;
+    width: 100px;
+    height: 100px;
+}
+.siceaux{
+    background-image: url(/src/images/icon-scissors.svg);
+    background-size: contain;
+    background-color: white;
+    border-radius: 50%;
+    border: 15px solid #4f6df1;
+    width: 100px;
+    height: 100px;
+}
